@@ -1,0 +1,5 @@
+All Traffic: true
+Xbox Live Server Port (UDP): udp and (udp.DstPort == 3074 or udp.SrcPort == 3074)
+PSN Server Port (UDP): udp and (udp.DstPort == 3478 or udp.SrcPort == 3478)
+HTTPS Server Port (UDP): udp and (udp.DstPort == 443 or udp.SrcPort == 443)
+All Local Traffic: outbound or inbound
